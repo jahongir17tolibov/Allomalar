@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/top_bar">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/share"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/ic_baseline_share_24" />
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical|end"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/ic_baseline_search_24" />
+
+    </FrameLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/navoi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#CCCACA"
+                android:minHeight="120dp"
+                app:cardCornerRadius="20dp"
+                app:strokeColor="@color/color_primary_forstatusbar"
+                app:strokeWidth="4dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_gravity="center_vertical|start"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/alisher_navoiy" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="14dp"
+                        android:maxWidth="200sp"
+                        android:text="Alisher Navoiy"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginBottom="14dp"
+                        android:text="9-fevral 1441-yil — 3-yanvar 1501-yil"
+                        android:textSize="14sp"
+                        android:textStyle="italic" />
+                </FrameLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/beruniy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#CCCACA"
+                android:minHeight="120dp"
+                app:cardCornerRadius="20dp"
+                app:strokeColor="@color/color_primary_forstatusbar"
+                app:strokeWidth="4dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:src="@drawable/abu_rayhon_beruniy" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="14dp"
+                    android:maxWidth="200sp"
+                    android:text="Abu Rayhon Beruniy"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|bottom"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginBottom="14dp"
+                    android:text="4-sentabr 973 — 13-dekabr 1048"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+                </FrameLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/sino"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#CCCACA"
+                android:minHeight="120dp"
+                app:cardCornerRadius="20dp"
+                app:strokeColor="@color/color_primary_forstatusbar"
+                app:strokeWidth="4dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="20dp"
+                    android:src="@drawable/ibn_sino" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="14dp"
+                    android:maxWidth="200sp"
+                    android:text="Abu Ali Ibn Sino"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|bottom"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginBottom="14dp"
+                    android:textAlignment="textStart"
+                    android:maxWidth="200sp"
+                    android:text="18-iyun 980-yil - Vafoti	taxminan 16-avgust 1037-yil"
+                    android:textSize="14sp"
+                    android:textStyle="italic"
+                    tools:ignore="RtlCompat" />
+
+                </FrameLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/xorazmiy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#CCCACA"
+                android:minHeight="120dp"
+                app:cardCornerRadius="20dp"
+                app:strokeColor="@color/color_primary_forstatusbar"
+                app:strokeWidth="4dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="20dp"
+                    android:src="@drawable/alxorazmiyy" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="44dp"
+                    android:layout_marginTop="14dp"
+                    android:maxWidth="200sp"
+                    android:text="Muhammad al-Xorazmiy"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|bottom"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginBottom="14dp"
+                    android:text="783, Xiva — 850, Bagʻdod"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+                </FrameLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/bobur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#CCCACA"
+                android:minHeight="120dp"
+                app:cardCornerRadius="20dp"
+                app:strokeColor="@color/color_primary_forstatusbar"
+                app:strokeWidth="4dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="20dp"
+                    android:src="@drawable/bobur_z" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="44dp"
+                    android:layout_marginTop="14dp"
+                    android:maxWidth="200sp"
+                    android:text="Zahiriddin Muhammad Bobur"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|bottom"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginBottom="0dp"
+                    android:textAlignment="textStart"
+                    android:maxWidth="200sp"
+                    android:text="1483-yil 14-fevral – 1530-yil 26-dekabr"
+                    android:textSize="14sp"
+                    android:textStyle="italic"
+                    tools:ignore="RtlCompat" />
+
+                </FrameLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/ulugbek"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#CCCACA"
+                android:minHeight="120dp"
+                app:cardCornerRadius="20dp"
+                app:strokeColor="@color/color_primary_forstatusbar"
+                app:strokeWidth="4dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="20dp"
+                    android:src="@drawable/mirzo_ulugbek" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="44dp"
+                    android:layout_marginTop="14dp"
+                    android:maxWidth="200sp"
+                    android:text="Mirzo Ulug`bek"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|bottom"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginBottom="14dp"
+                    android:textAlignment="textStart"
+                    android:maxWidth="200sp"
+                    android:text="22-mart 1394 yil - 27-oktyabr 1449-yil"
+                    android:textSize="14sp"
+                    android:textStyle="italic"
+                    tools:ignore="RtlCompat" />
+
+                </FrameLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>
